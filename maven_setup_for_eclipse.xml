@@ -1,0 +1,67 @@
+<settings>
+
+<proxies>
+<proxy>
+     <id>http</id>
+     <active>true</active>
+     <protocol>http</protocol>
+     <host>165.225.104.34</host>
+     <port>9480</port>
+	 <!-- <nonProxyHosts>http://artifactory-ehv.ta.philips.com:8082/artifactory/dps-pics-release</nonProxyHosts>   -->
+     <nonProxyHosts>local.net|some.host.com|161.85.28.47</nonProxyHosts>
+   </proxy>
+   <proxy>
+     <id>https</id>
+     <active>true</active>
+     <protocol>https</protocol>
+     <host>165.225.104.34</host>
+     <port>9480</port>
+	  <!-- <nonProxyHosts>http://artifactory-ehv.ta.philips.com:8082/artifactory/dps-pics-release</nonProxyHosts>   -->
+     <nonProxyHosts>local.net|some.host.com|161.85.28.47</nonProxyHosts>
+   </proxy>
+   <proxy>
+     <id>ftp</id>
+     <active>true</active>
+     <protocol>ftp</protocol>
+     <host>165.225.104.34</host>
+     <port>9480</port>
+	 <!-- <nonProxyHosts>http://artifactory-ehv.ta.philips.com:8082/artifactory/dps-pics-release</nonProxyHosts>    -->
+     <nonProxyHosts>local.net|some.host.com|161.85.28.47</nonProxyHosts>
+	 </proxy>
+</proxies>
+
+
+        <profiles>
+                <profile>
+                        <id>Repository Proxy</id>
+                        <activation>
+                                <activeByDefault>true</activeByDefault>
+                        </activation>
+
+                        <repositories>
+                                <repository>
+                                        <id>internal</id>
+                                        <name>Archiva Managed Internal Repository</name>
+                                        <url>http://161.85.28.47:9090/repository/internal</url>
+                                        <releases>
+                                                <enabled>true</enabled>
+                                        </releases>
+                                        <snapshots>
+                                                <enabled>false</enabled>
+                                        </snapshots>
+                                </repository>
+                                <repository>
+                                        <id>snapshots</id>
+                                        <name>Archiva Managed Snapshot Repository</name>
+                                        <url>http://161.85.28.47:9090/repository/snapshots/</url>
+                                        <releases>
+                                                <enabled>false</enabled>
+                                        </releases>
+                                        <snapshots>
+                                                <enabled>true</enabled>
+                                        </snapshots>
+                                </repository>
+                        </repositories>
+                </profile>
+        </profiles>
+</settings>
