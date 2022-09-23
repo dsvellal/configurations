@@ -9,14 +9,12 @@
 /configuration/org.eclipse.core.net/proxyData/HTTPS/port=9480
 /configuration/org.eclipse.core.net/systemProxiesEnabled=false
 /configuration/org.eclipse.ui.ide/MAX_RECENT_WORKSPACES=10
-/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=C\:\\Users\\320038909\\OneDrive - Philips\\Documents\\Code\\20190630\nC\:\\Users\\320038909\\OneDrive - Philips\\Documents\\Code\\20190704_UnitTest
 /configuration/org.eclipse.ui.ide/RECENT_WORKSPACES_PROTOCOL=3
 /configuration/org.eclipse.ui.ide/SHOW_RECENT_WORKSPACES=false
 /configuration/org.eclipse.ui.ide/SHOW_WORKSPACE_SELECTION_DIALOG=true
 /instance/net.sf.jautodoc/add_header=true
 /instance/net.sf.jautodoc/add_todo=false
 /instance/net.sf.jautodoc/filter_excloverriding=true
-/instance/net.sf.jautodoc/header_text=/*\r\n * Copyright of Philips, 2019\r\n * \r\n * This file is subject to the terms and conditions defined by Philips,\r\n * visit https\://www.ip.philips.com/licensing/ for more details.\r\n *\r\n * @author\: dsvellal@philips.com\r\n * \r\n */
 /instance/net.sf.jautodoc/mode=mode_keep
 /instance/net.sf.jautodoc/replacements=<?xml version\="1.0" standalone\="yes"?>\n\n<replacements>\n<replacement key\="get" scope\="1" mode\="0">Gets the</replacement>\n<replacement key\="set" scope\="1" mode\="0">Sets the</replacement>\n<replacement key\="add" scope\="1" mode\="0">Adds the</replacement>\n<replacement key\="edit" scope\="1" mode\="0">Edits the</replacement>\n<replacement key\="remove" scope\="1" mode\="0">Removes the</replacement>\n<replacement key\="init" scope\="1" mode\="0">Inits the</replacement>\n<replacement key\="parse" scope\="1" mode\="0">Parses the</replacement>\n<replacement key\="create" scope\="1" mode\="0">Creates the</replacement>\n<replacement key\="build" scope\="1" mode\="0">Builds the</replacement>\n<replacement key\="is" scope\="1" mode\="0">Checks if is</replacement>\n<replacement key\="print" scope\="1" mode\="0">Prints the</replacement>\n<replacement key\="has" scope\="1" mode\="0">Checks for</replacement>\n</replacements>\n\n
 /instance/net.sf.jautodoc/use_internal_formatter=true
